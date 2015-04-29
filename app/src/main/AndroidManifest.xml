@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="edu.erau.scoutfrc" >
+
+    <uses-sdk android:minSdkVersion="11" />
+
+    <android:uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="18" />
+    <android:uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <android:uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="18" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_vortex"
+        android:label="@string/app_name"
+        android:logo="@mipmap/ic_launcher_vortex"
+        android:theme="@style/AppTheme" >
+
+        <!-- Main activity -->
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- A Scouting Form is a child of the main activity -->
+        <!-- Hide the keyboard when Activity is started using windowSoftInputMode
+             Source: http://stackoverflow.com/questions/9732761/how-to-avoid-automatically-appear-android-keyboard-when-activity-start -->
+        <activity
+            android:name=".ScoutFormActivity"
+            android:label="@string/title_activity_scout_form"
+            android:windowSoftInputMode="stateHidden"
+            android:parentActivityName=".MainActivity" >
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+    </application>
+
+</manifest>

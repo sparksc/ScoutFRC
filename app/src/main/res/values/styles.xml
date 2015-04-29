@@ -1,0 +1,16 @@
+<resources>
+    <!--Theme.AppCompat.Light.DarkActionBar-->
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <!-- Style for number pickers
+         Source: http://stackoverflow.com/questions/17993192/android-number-picker-default-design-changes-in-jelly-bean-and-ice-cream-sandwit -->
+    <style name="cust_dialog"  parent="android:Theme.Light"/>
+
+    <style name="CustomText" parent="@style/AppTheme">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#ff28a518</item>
+    </style>
+</resources>

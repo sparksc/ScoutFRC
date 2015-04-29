@@ -1,0 +1,112 @@
+<resources>
+    <string name="app_name">Scouter Vortex</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_search">Search Teams</string>
+    <string name="action_new">New Scouting Form</string>
+    <string name="action_storage">Scouted Data</string>
+
+    <string name="gHowMany">How many?</string>
+    <string-array name="gHowMany_array">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+    <string name="gHow">How?</string>
+    <string name="gYTotes">Yellow Totes</string>
+    <string name="gGTotes">Grey Totes</string>
+    <string name="gRecycleBins">Recycle Bins</string>
+    <string name="gLitter">Litter</string>
+    <string name="gTeamName">Team Name</string>
+    <string name="gTeam">Team</string>
+    <string name="gStats">Stats</string>
+    <string name="gCompetition">Competition</string>
+    <string name="gMatch">Match</string>
+    <string name="gNotes">Notes</string>
+    <string name="gReset">Reset Form</string>
+    <string name="gSubmit">Submit Form</string>
+    <string name="gUpload">Upload</string>
+    <string name="gStackTotes">Stack totes?</string>
+    <string name="gBlueAlliance">Blue Alliance Link</string>
+    <string name="gHometown">Hometown</string>
+
+    <string name="auto">Auto</string>
+    <string name="aStartingPos">Starting Position</string>
+    <string-array name="aStartingPos_array">
+        <item>Staging Zone Right (Front of Bump)</item>
+        <item>Staging Zone Left (No Bump)</item>
+        <item>Neutral Zone</item>
+    </string-array>
+    <string name="aScouter">Scouter Name</string>
+    <string name="aMove">Move into the Auto Zone?</string>
+    <string name="aYTotes1">Able to push/carry totes into the Auto Zone?</string>
+    <string name="aBins1">Moves Recycle Bins into Auto Zone?</string>
+    <string name="aBins2">Do they go after Recycle bins in center of field?</string>
+    <string name="aBins3">How many do they move?</string>
+    <string name="aBins4">Moves Grey Totes?</string>
+
+    <string name="teleop">Teleop</string>
+    <string name="tControl1">Able to control (push or pick up) totes?</string>
+    <string name="tControl2">Gets totes from where?</string>
+    <string-array name="tControlWhere_array">
+        <item>N/A</item>
+        <item>HP</item>
+        <item>Floor</item>
+        <item>Both</item>
+    </string-array>
+    <string name="tControl3">How does robot control totes?</string>
+    <string-array name="tControl_array">
+        <item>Passive Device (plow)</item>
+        <item>Interactive Device (claw)</item>
+    </string-array>
+    <string name="tGTotes1">Number totes stacked?</string>
+    <string name="tGTotes2">Highest stack made?</string>
+    <string name="tBins1">Robot places Bins on top of stacked totes?</string>
+    <string name="tBins2">How many totes high are they able to place the Bin?</string>
+    <string name="tBins3">Do they go after the Bins in the center?</string>
+    <string name="tBins4">Drives through totes to get them?</string>
+    <string name="tLitter1">Robot score Litter in/on Recycle Bin?</string>
+    <string-array name="tLitter_array">
+        <item>Place on top of Bin</item>
+        <item>Place in Bin</item>
+        <item>Both</item>
+    </string-array>
+    <string name="tLitter2">How is robot able to remove Litter from Auto Zone?</string>
+    <string name="tLitter3">Herd Litter?</string>
+    <string name="tLitter4">Pick Litter up?</string>
+
+    <string name="endGame">End Game</string>
+    <string name="eCooperation">Cooperation Bonus</string>
+    <string name="eBonus1">Stack yellow totes for bonus?</string>
+    <string name="eBonus2">Stack top totes?</string>
+    <string name="eBonus3">Stack bottom totes?</string>
+    <string name="eBonus4">Total totes stacked</string>
+    <string name="eHumanPlayer">Human Player (HP) Stations</string>
+    <string name="eHP1">Robot able to collect from HP station?</string>
+    <string name="eHP2">What can they collect?</string>
+    <string-array name="eCollectWhat_array">
+        <item>Litter</item>
+        <item>Totes</item>
+        <item>Both</item>
+    </string-array>
+    <string name="eRoles">Role(s)</string>
+    <string name="eRoles1">Stacker</string>
+    <string name="eRoles2">Herder</string>
+    <string name="eRoles3">Recycle Bin Specialist</string>
+    <string name="eRoles4">Pool Noodle Specialist</string>
+    <string name="eRoles5">Inbound Specialist</string>
+    <string name="eRoles6">Other</string>
+
+    <string name="resetDialog">Are you sure you want to ERASE this scouting form?</string>
+    <string name="submitDialog">Are you sure you want to SUBMIT this scouting form?</string>
+
+    <string name="title_activity_scout_form">Scouting Form</string>
+    <string name="hint_team">Team #</string>
+    <string name="hint_match">Match #</string>
+    <string name="hint_name">Enter Your Name</string>
+    <string name="hint_notes">Anything else?</string>
+
+</resources>
